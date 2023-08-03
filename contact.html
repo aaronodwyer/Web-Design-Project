@@ -1,0 +1,76 @@
+<!-- Romans Ronis -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MSKG</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/contact.js"></script>
+</head>
+
+<body>
+	<header id="header">
+		<h1>MooreField Shotokan Karate Group</h1>
+	</header>
+	<nav class="topnav">
+		<a href="home.html">Home</a>
+		<a class="active" href="contact.html">Contact</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="about.html">More Info</a>
+	</nav>
+<div class="contact">
+	<div class="background">
+		<div class="contact_container">
+			<form id="contactForm">
+				<!-- First Name Input -->
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				<!-- Last Name Input -->
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+				<!-- Phone Number Input -->
+				<label for="pnumber">Phone Number</label>
+				<input type="tel" id="pnumber" name="phonenumber" placeholder="085 555 5555">
+
+				<!-- Email Input -->
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="MSKG@karate.ie">
+
+				<!-- Facility Selection -->
+				<label for="country">Which facility are you looking to join?</label>
+				<select id="country" name="country">
+					<option value="dublin">Dublin</option>
+					<option value="meath">Meath</option>
+					<option value="kildare">Kildare</option>
+				</select>
+
+				<!-- Message Input -->
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+
+				<!-- Submit Button -->
+				<input type="submit" value="Submit" onclick="submitForm()">
+			</form>
+		</div>
+	</div>
+</div>
+<hr>
+	<footer id="footer">
+		<p>
+			email us: MSKG@karate.ie &nbsp;&nbsp;
+			<address>68 Glasnevin Avenue, Santry, Dublin 9, D09P0909</address>
+			&nbsp;&nbsp;
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-twitter"></a>
+		</p>
+	</footer>
+	<hr>
+</body>
+
+</html>
